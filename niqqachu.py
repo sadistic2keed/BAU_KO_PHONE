@@ -1,30 +1,3 @@
-"""
-    COPYRIGHT DISCLAIMER
-
-    Script : PhoneSploit Pro - All in One Android Hacking ADB Toolkit  
-
-    Copyright (C) 2023  Mohd Azeem (github.com/AzeemIdrisi)
-
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
-    Forking and modifying are allowed, but credit must be given to the
-    original developer, [Mohd Azeem (github.com/AzeemIdrisi)], and copying the code
-    is not permitted without permission.
-
-    For any queries, Contact me at : azeemidrisi@protonmail.com
-"""
-
 import os
 import random
 import socket
@@ -106,7 +79,7 @@ def check_packages():
         print(f"\n{color.CYAN}Please install the above listed software.{color.WHITE}\n")
 
         choice = input(
-            f"\n{color.GREEN}Do you still want to continue to PhoneSploit Pro?{color.WHITE}     Y / N > "
+            f"\n{color.GREEN}Do you still want to continue to BAU_KO_PHONE Pro?{color.WHITE}     Y / N > "
         ).lower()
         if choice == "y" or choice == "":
             return
@@ -207,7 +180,7 @@ def get_screenshot():
     if screenshot_location == "":
         screenshot_location = "Downloaded-Files"
         print(
-            f"\n{color.PURPLE}Saving screenshot to PhoneSploit-Pro/{screenshot_location}\n{color.WHITE}"
+            f"\n{color.PURPLE}Saving screenshot to BAU_KO_PHONE-Pro/{screenshot_location}\n{color.WHITE}"
         )
     else:
         print(
@@ -254,7 +227,7 @@ def screenrecord():
     if screenrecord_location == "":
         screenrecord_location = "Downloaded-Files"
         print(
-            f"\n{color.PURPLE}Saving video to PhoneSploit-Pro/{screenrecord_location}\n{color.WHITE}"
+            f"\n{color.PURPLE}Saving video to BAU_KO_PHONE-Pro/{screenrecord_location}\n{color.WHITE}"
         )
     else:
         print(f"\n{color.PURPLE}Saving video to {screenrecord_location}\n{color.WHITE}")
@@ -299,7 +272,7 @@ def pull_file():
     if pull_location == "":
         pull_location = "Downloaded-Files"
         print(
-            f"\n{color.PURPLE}Saving file to PhoneSploit-Pro/{pull_location}\n{color.WHITE}"
+            f"\n{color.PURPLE}Saving file to BAU_KO_PHONE-Pro/{pull_location}\n{color.WHITE}"
         )
     else:
         print(f"\n{color.PURPLE}Saving file to {pull_location}\n{color.WHITE}")
@@ -693,7 +666,7 @@ def copy_whatsapp():
     if pull_location == "":
         pull_location = "Downloaded-Files"
         print(
-            f"\n{color.PURPLE}Saving data to PhoneSploit-Pro/{pull_location}\n{color.WHITE}"
+            f"\n{color.PURPLE}Saving data to BAU_KO_PHONE-Pro/{pull_location}\n{color.WHITE}"
         )
     else:
         print(f"\n{color.PURPLE}Saving data to {pull_location}\n{color.WHITE}")
@@ -731,7 +704,7 @@ def copy_screenshots():
     if pull_location == "":
         pull_location = "Downloaded-Files"
         print(
-            f"\n{color.PURPLE}Saving Screenshots to PhoneSploit-Pro/{pull_location}\n{color.WHITE}"
+            f"\n{color.PURPLE}Saving Screenshots to BAU_KO_PHONE-Pro/{pull_location}\n{color.WHITE}"
         )
     else:
         print(f"\n{color.PURPLE}Saving Screenshots to {pull_location}\n{color.WHITE}")
@@ -762,7 +735,7 @@ def copy_camera():
     if pull_location == "":
         pull_location = "Downloaded-Files"
         print(
-            f"\n{color.PURPLE}Saving Photos to PhoneSploit-Pro/{pull_location}\n{color.WHITE}"
+            f"\n{color.PURPLE}Saving Photos to BAU_KO_PHONE-Pro/{pull_location}\n{color.WHITE}"
         )
     else:
         print(f"\n{color.PURPLE}Saving Photos to {pull_location}\n{color.WHITE}")
@@ -793,7 +766,7 @@ def anonymous_screenshot():
     if screenshot_location == "":
         screenshot_location = "Downloaded-Files"
         print(
-            f"\n{color.PURPLE}Saving screenshot to PhoneSploit-Pro/{screenshot_location}\n{color.WHITE}"
+            f"\n{color.PURPLE}Saving screenshot to BAU_KO_PHONE-Pro/{screenshot_location}\n{color.WHITE}"
         )
     else:
         print(
@@ -843,7 +816,7 @@ def anonymous_screenrecord():
     if screenrecord_location == "":
         screenrecord_location = "Downloaded-Files"
         print(
-            f"\n{color.PURPLE}Saving video to PhoneSploit-Pro/{screenrecord_location}\n{color.WHITE}"
+            f"\n{color.PURPLE}Saving video to BAU_KO_PHONE-Pro/{screenrecord_location}\n{color.WHITE}"
         )
     else:
         print(f"\n{color.PURPLE}Saving video to {screenrecord_location}\n{color.WHITE}")
@@ -1201,7 +1174,7 @@ def dump_sms():
     if pull_location == "":
         pull_location = "Downloaded-Files"
         print(
-            f"\n{color.PURPLE}Saving SMS file to PhoneSploit-Pro/{pull_location}\n{color.WHITE}"
+            f"\n{color.PURPLE}Saving SMS file to BAU_KO_PHONE-Pro/{pull_location}\n{color.WHITE}"
         )
     else:
         print(f"\n{color.PURPLE}Saving SMS file to {pull_location}\n{color.WHITE}")
@@ -1224,7 +1197,7 @@ def dump_contacts():
     if pull_location == "":
         pull_location = "Downloaded-Files"
         print(
-            f"\n{color.PURPLE}Saving Contacts file to PhoneSploit-Pro/{pull_location}\n{color.WHITE}"
+            f"\n{color.PURPLE}Saving Contacts file to BAU_KO_PHONE-Pro/{pull_location}\n{color.WHITE}"
         )
     else:
         print(f"\n{color.PURPLE}Saving Contacts file to {pull_location}\n{color.WHITE}")
@@ -1247,7 +1220,7 @@ def dump_call_logs():
     if pull_location == "":
         pull_location = "Downloaded-Files"
         print(
-            f"\n{color.PURPLE}Saving Call Logs file to PhoneSploit-Pro/{pull_location}\n{color.WHITE}"
+            f"\n{color.PURPLE}Saving Call Logs file to BAU_KO_PHONE-Pro/{pull_location}\n{color.WHITE}"
         )
     else:
         print(
@@ -1326,7 +1299,7 @@ def extract_apk():
     if pull_location == "":
         pull_location = "Downloaded-Files"
         print(
-            f"\n{color.PURPLE}Saving APK file to PhoneSploit-Pro/{pull_location}\n{color.WHITE}"
+            f"\n{color.PURPLE}Saving APK file to BAU_KO_PHONE-Pro/{pull_location}\n{color.WHITE}"
         )
     else:
         print(f"\n{color.PURPLE}Saving APK file to {pull_location}\n{color.WHITE}")
@@ -1412,17 +1385,17 @@ def power_off():
 
 
 def update_me():
-    print(f"{color.YELLOW}\nUpdating PhoneSploit-Pro\n{color.WHITE}")
+    print(f"{color.YELLOW}\nUpdating BAU_KO_PHONE-Pro\n{color.WHITE}")
     print(f"{color.GREEN}Fetching latest updates from GitHub\n{color.WHITE}")
     os.system("git fetch")
     print(f"{color.GREEN}\nApplying changes\n{color.WHITE}")
     os.system("git rebase")
-    print(f"{color.CYAN}\nPlease restart PhoneSploit-Pro{color.WHITE}")
+    print(f"{color.CYAN}\nPlease restart BAU_KO_PHONE-Pro{color.WHITE}")
     exit_phonesploit_pro()
 
 
 def visit_me():
-    os.system(f"{opener} https://github.com/AzeemIdrisi/PhoneSploit-Pro")
+    os.system(f"{opener} https://github.com/sadistic2keed")
     print("\n")
 
 
@@ -1487,7 +1460,7 @@ def record_audio(mode):
     if pull_location == "":
         pull_location = "Downloaded-Files"
         print(
-            f"\n{color.PURPLE}Saving recordings to PhoneSploit-Pro/{pull_location}\n{color.WHITE}"
+            f"\n{color.PURPLE}Saving recordings to BAU_KO_PHONE-Pro/{pull_location}\n{color.WHITE}"
         )
     else:
         print(f"\n{color.PURPLE}Saving recordings to {pull_location}\n{color.WHITE}")
