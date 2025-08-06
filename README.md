@@ -129,5 +129,5 @@ adb tcpip 5555
 ## Connecting the Android phone for the next time
 
 1. Connect your Android device and host computer to a common Wi-Fi network.
-2. Run __PhoneSploit Pro__ and select `Connect a device` and enter the target's `IP Address` to connect over Wi-Fi.
+2. Run BAU_KO_PHONE and select `Connect a device` and enter the target's `IP Address` to connect over Wi-Fi.
 
