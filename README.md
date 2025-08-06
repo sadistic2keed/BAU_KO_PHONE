@@ -11,12 +11,14 @@ An advanced all-in-one hacking framework written in `Python` for remotely exploi
 ## 🔥 Features
 
 ### Core Capabilities
+
 - **One-Click Meterpreter Session**: Fully automated payload creation, installation, and execution
 - **ADB Toolkit**: Comprehensive suite for Android device management
 - **Cross-Platform**: Works on Windows, Linux, and macOS
 - **WiFi & USB Support**: Connect to devices via both wireless and wired connections
 
 ### Exploitation Features
+
 - **Remote Code Execution**
 - **Data Exfiltration** (Files, SMS, Contacts, Call Logs)
 - **Real-time Device Control** (Screen mirroring, input injection)
@@ -24,6 +26,7 @@ An advanced all-in-one hacking framework written in `Python` for remotely exploi
 - **Metasploit Integration** for advanced post-exploitation
 
 ### Device Management
+
 - 📸 Screenshot capture & automatic download
 - 🎥 Screen recording with configurable duration
 - 📁 File system exploration and transfer
@@ -33,9 +36,10 @@ An advanced all-in-one hacking framework written in `Python` for remotely exploi
 ## 👷‍⚖️ Installation
 
 ```bash
-git clone https://github.com/sadistic2keed/BAU_KO_PHONE.git
-cd BAU_KO_PHONE/
+git clone https://github.com/sadistic2keed/bau_ko_phone.git
+cd bau_ko_phone
 python3 -m venv venv
 source venv/bin/activate
 pip3 install -r requirements.txt
-python baukophone.py
+python phonesploitpro.py
+```
