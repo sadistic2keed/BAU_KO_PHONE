@@ -33,9 +33,9 @@ An advanced all-in-one hacking framework written in `Python` for remotely exploi
 ## 👷‍⚖️ Installation
 
 ```bash
-git clone https://github.com/sadistic2keed/bau_ko_phone.git
-cd bau_ko_phone
+git clone https://github.com/sadistic2keed/BAU_KO_PHONE.git
+cd BAU_KO_PHONE/
 python3 -m venv venv
 source venv/bin/activate
 pip3 install -r requirements.txt
-python phonesploitpro.py
+python baukophone.py
